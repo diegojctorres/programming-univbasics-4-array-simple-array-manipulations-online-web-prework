@@ -10,12 +10,14 @@ end
 
 def using_pop(array)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  continents.pop
+  deleted_string = continents.pop
+  p deleted_string
 end 
 
 def pop_with_args(array)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
-  dog_breeds.pop(2)
+  small_dogs = dog_breeds.pop(2)
+  p 
 end
 
 def using_shift(array)
