@@ -20,4 +20,5 @@ def pop_with_args(array)
   p small_dogs
 end
 
-def 
+def using_shift(array)
+  
