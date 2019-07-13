@@ -30,4 +30,4 @@ def shift_with_args(array)
     brands_removed = ice_cream_brands.shift(2)
 end 
 
- 
+def using_concat() 
