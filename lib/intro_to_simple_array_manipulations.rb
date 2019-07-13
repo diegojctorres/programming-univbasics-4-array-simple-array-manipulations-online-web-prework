@@ -25,5 +25,5 @@ def using_shift(array)
   im_so_over_this_city = my_favorite_cities.shift 
   p my_favorite_cities
   p im_so_over_this_city
-  end
+  end 
   
