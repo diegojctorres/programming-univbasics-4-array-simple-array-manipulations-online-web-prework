@@ -22,7 +22,7 @@ end
 
 def using_shift(array)
   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  im_so_over_this_city = my_favorite_cities.shift(1)
+  im_so_over_this_city = my_favorite_cities.shift
   im_so_over_this_city
   end 
   
@@ -37,3 +37,6 @@ def using_concat(array, array2)
   all_my_favs = my_favorite_things.concat(more_favs)
   all_my_favs
   end
+  
+def using_insert(array, array2)
+  
