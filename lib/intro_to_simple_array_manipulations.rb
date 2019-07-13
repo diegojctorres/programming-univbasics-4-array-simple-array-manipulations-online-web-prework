@@ -11,20 +11,16 @@ end
 def using_pop(array)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   deleted_string = continents.pop 
-  p deleted_string
 end 
 
 def pop_with_args(array)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
   small_dogs = dog_breeds.pop(2)
-  p small_dogs
 end
 
 def using_shift(array)
   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
   im_so_over_this_city = my_favorite_cities.shift 
-  p my_favorite_cities
-  p im_so_over_this_city
   end 
   
   def shift_with_args(array)
